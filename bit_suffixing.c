@@ -31,12 +31,18 @@ int main(){
             count = 0;
 
         }
-    }
-
-    
+    }    
 
     final_suffix_string[j] = '\0';
-    printf("%s %s %s",given_flag,final_suffix_string,given_flag);
+    printf("%s %s %s\n",given_flag,final_suffix_string,given_flag);
     return 0;
 
 }
+
+/*Output:
+
+Enter the string: 11001101
+01111110 11001101 01111110
+
+*/
+
